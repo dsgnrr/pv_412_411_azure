@@ -76,19 +76,43 @@ WSGI_APPLICATION = 'project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
+# mssql
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'mssql',
+#         'NAME': os.getenv("DB_NAME"),
+#         'HOST':os.getenv("DB_HOST"),
+#         'PORT':os.getenv("DB_PORT"),
+#         'USER':os.getenv("DB_USER"),
+#         'PASSWORD':os.getenv("DB_PASSWORD"),
+#         'OPTIONS': {
+#             'driver': 'ODBC Driver 17 for SQL Server',
+#         },
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'mssql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': os.getenv("DB_NAME"),
         'HOST':os.getenv("DB_HOST"),
         'PORT':os.getenv("DB_PORT"),
         'USER':os.getenv("DB_USER"),
         'PASSWORD':os.getenv("DB_PASSWORD"),
-        'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
-        },
+        # 'OPTIONS':{
+        #     'ssl':{
+        #         'ca':f"{BASE_DIR} / project/DigiCertGlobalRootG2.crt.pem"
+        #     }
+        # }
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 # Password validation

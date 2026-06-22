@@ -1,0 +1,133 @@
+[
+{
+    "model": "core.category",
+    "pk": "28337399-5783-49aa-878c-16d56fdb3dc4",
+    "fields": {
+        "name": "Food",
+        "created_at": "2026-06-22",
+        "deleted_at": null
+    }
+},
+{
+    "model": "core.category",
+    "pk": "52e22d58-2629-48b9-aa5f-ed8267606f99",
+    "fields": {
+        "name": "Smartphones",
+        "created_at": "2026-06-22",
+        "deleted_at": null
+    }
+},
+{
+    "model": "core.category",
+    "pk": "7e54a83f-05ae-4611-870c-88e4723d5539",
+    "fields": {
+        "name": "Clothes",
+        "created_at": "2026-06-22",
+        "deleted_at": null
+    }
+},
+{
+    "model": "core.category",
+    "pk": "cc3f606c-5398-44f0-b863-21694c53e159",
+    "fields": {
+        "name": "Toys",
+        "created_at": "2026-06-22",
+        "deleted_at": null
+    }
+},
+{
+    "model": "core.category",
+    "pk": "d8ade9b7-e2f7-4bb4-bc08-df2e61e8e400",
+    "fields": {
+        "name": "Laptops",
+        "created_at": "2026-06-22",
+        "deleted_at": null
+    }
+},
+{
+    "model": "core.tag",
+    "pk": "02df3246-7e34-4ae3-b5d0-ae1eabcc54b3",
+    "fields": {
+        "name": "Coming Soon"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": "3b8d6913-0e99-46bb-a632-3a310e31bbc3",
+    "fields": {
+        "name": "In-Stock"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": "687e90e2-3ca3-4600-a378-dc10c10e09ad",
+    "fields": {
+        "name": "New"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": "75bb61cf-c2e9-4ddc-800c-875c5d1daebb",
+    "fields": {
+        "name": "Sale"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": "8f3c685a-8e90-4ac4-8db4-d6e3ed74aabb",
+    "fields": {
+        "name": "Hit"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": "a2380a07-9187-4514-87c8-e106cd1620a2",
+    "fields": {
+        "name": "Recommended"
+    }
+},
+{
+    "model": "core.tag",
+    "pk": "bb0311c0-ad52-47c3-9653-a67bd9079c53",
+    "fields": {
+        "name": "Limited"
+    }
+},
+{
+    "model": "core.product",
+    "pk": "d2f30f8a-b448-4dad-a04a-52c23e410487",
+    "fields": {
+        "name": "fwerfewf",
+        "price": 213.0,
+        "description": "wefwefwef",
+        "image_path": null,
+        "created_at": "2026-06-22",
+        "deleted_at": null,
+        "category": "7e54a83f-05ae-4611-870c-88e4723d5539",
+        "tags": [
+            "3b8d6913-0e99-46bb-a632-3a310e31bbc3",
+            "687e90e2-3ca3-4600-a378-dc10c10e09ad",
+            "a2380a07-9187-4514-87c8-e106cd1620a2",
+            "bb0311c0-ad52-47c3-9653-a67bd9079c53"
+        ]
+    }
+},
+{
+    "model": "core.product",
+    "pk": "edf6236e-0fa0-440a-b8d1-1a4b66abfe1f",
+    "fields": {
+        "name": "product1",
+        "price": 123.0,
+        "description": "fwefwefwefwef",
+        "image_path": null,
+        "created_at": "2026-06-22",
+        "deleted_at": null,
+        "category": "52e22d58-2629-48b9-aa5f-ed8267606f99",
+        "tags": [
+            "02df3246-7e34-4ae3-b5d0-ae1eabcc54b3",
+            "687e90e2-3ca3-4600-a378-dc10c10e09ad",
+            "bb0311c0-ad52-47c3-9653-a67bd9079c53"
+        ]
+    }
+}
+]
